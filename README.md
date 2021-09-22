@@ -4,6 +4,49 @@
 
 Template for repository helper, library - Basic, Simple and Lightweight
 
+## Use this Template
+
+Edit file `composer.json`
+
+```php
+{
+    "type": "library",
+    "name": "nguyenanhung/template-php-lib",
+    "description": "Template for repository helper, library - Basic, Simple and Lightweight",
+    "keywords": [
+        "template",
+        "helper",
+        "library",
+        "php"
+    ],
+    "homepage": "https://github.com/nguyenanhung/template-php-lib",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Nguyen An Hung",
+            "email": "dev@nguyenanhung.com",
+            "homepage": "https://nguyenanhung.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "nguyenanhung\\Libraries\\REPLACE_FOR_YOUR\\": "src/"
+        },
+        "files": [
+            "helpers/helpers.php"
+        ]
+    }
+}
+
+```
+
+Replace name space `REPLACE_FOR_YOUR` to Library space, suggesstion example: `JSON` ->`"nguyenanhung\\Libraries\\JSON\\": "src/"`
+
 ## Contact & Support
 
 If any question & request, please contact following information
