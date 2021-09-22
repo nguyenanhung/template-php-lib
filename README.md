@@ -8,7 +8,7 @@ Template for repository helper, library - Basic, Simple and Lightweight
 
 Edit file `composer.json`
 
-```php
+```json
 {
     "type": "library",
     "name": "nguyenanhung/template-php-lib",
