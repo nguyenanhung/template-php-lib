@@ -6,7 +6,11 @@ Template for repository helper, library - Basic, Simple and Lightweight
 
 ## Use this Template
 
-Edit file `composer.json`
+First, you can `Use this template` for new project: [Use this template](https://github.com/nguyenanhung/template-php-lib/generate)
+
+Second, clone your project to your to path in your machine
+
+Finally, your edit file `composer.json` in root folder of project
 
 ```json
 {
@@ -46,6 +50,8 @@ Edit file `composer.json`
 ```
 
 Replace name space `REPLACE_FOR_YOUR` to Library space, example: `JSON`. After change namespace, project namespace same `"nguyenanhung\\Libraries\\JSON\\": "src/"`
+
+Finished, your can writing new awesome helper and library now time.
 
 ## Contact & Support
 
