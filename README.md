@@ -45,7 +45,7 @@ Edit file `composer.json`
 
 ```
 
-Replace name space `REPLACE_FOR_YOUR` to Library space, suggesstion example: `JSON` ->`"nguyenanhung\\Libraries\\JSON\\": "src/"`
+Replace name space `REPLACE_FOR_YOUR` to Library space, example: `JSON`. After change namespace, project namespace same `"nguyenanhung\\Libraries\\JSON\\": "src/"`
 
 ## Contact & Support
 
